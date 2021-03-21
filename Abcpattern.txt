@@ -1,0 +1,17 @@
+
+public class AbcPattern 
+{
+public static void main(String []arg)
+{
+	char i;
+	char  j;
+	for(i='A';i<='C';i++)
+	{
+		for(j='A';j<=i;j++)
+		{
+			System.out.print(j +" ");
+		}
+		System.out.println();
+	}
+}
+}
